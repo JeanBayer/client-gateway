@@ -20,6 +20,8 @@ async function bootstrap() {
 
   await app.listen(envs.PORT);
 
+  console.log("prueba");
+
   logger.log(`Client Gateway is running on port ${envs.PORT}`);
 }
 bootstrap();
